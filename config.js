@@ -13,8 +13,8 @@ const CONFIG = {
   // General
   name: 'Jason',
   imageBackground: false,
-  openInNewTab: true,
-  twelveHourFormat: false,
+  openInNewTab: false,
+  twelveHourFormat: true,
 
   // Greetings
   greetingMorning: 'Good morning!',
@@ -24,18 +24,18 @@ const CONFIG = {
 
   // Weather
   weatherKey: 'c0e60eeb043a33c929bf8e8bb3307a38',
-  weatherIcons: 'OneDark', // 'Nord', 'Dark', 'White'
-  weatherUnit: 'C', // 'F', 'C'
+  weatherIcons: 'Nord', // 'Nord', 'Dark', 'White', 'OneDark'
+  weatherUnit: 'F', // 'F', 'C'
   language: 'en', // More languages in https://openweathermap.org/current#multi
 
-  trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-  defaultLatitude: '37.775',
-  defaultLongitude: '-122.419',
+  trackLocation: false, // If false or an error occurs, the app will use the lat/lon below
+  defaultLatitude: '37.664090',
+  defaultLongitude: '-77.562550',
 
   // Autochange
   autoChangeTheme: true,
 
-  // Autochabge by OS
+  // Autochange by OS
   changeThemeByOS: false, 
 
   // Autochange by hour options (24hrs format, string must be in: hh:mm)
